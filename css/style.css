@@ -36,8 +36,6 @@ body {
   padding: 24px;
 }
 
-
-
 .studio-logo {
   color: #2e2f42;
 }
@@ -47,10 +45,18 @@ body {
 }
 
 .frontpage-section {
-  
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+    to bottom, 
+    rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)
+    ), url(../images/people-office-opti.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    
 }
 
 .studio-link {
@@ -62,8 +68,6 @@ body {
   padding: 24px 0;
   display: block;
 }
-
-
 
 .adress-bar {
   font-style: normal;
@@ -179,8 +183,6 @@ img {
   letter-spacing: 0.02em;
 }
 
-
-
 .team-head {
   font-size: 36px;
   line-height: 1.11;
@@ -195,6 +197,7 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
+  box-shadow: ;
 }
 
 .name {
@@ -217,6 +220,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .profession-app {
@@ -226,7 +230,6 @@ img {
   color: #434455;
   text-align: left;
 }
-
 
 .team-list {
   padding: 32px 0;
@@ -238,7 +241,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  
+
   margin-bottom: 8px;
 }
 
@@ -270,7 +273,6 @@ img {
 }
 
 .footer-text {
-  
   flex-wrap: wrap;
   line-height: 1.5;
   color: #f4f4fd;
@@ -302,7 +304,6 @@ img {
 }
 
 .nav-item {
- 
 }
 
 .nav-item:last-child {
@@ -311,17 +312,17 @@ img {
 
 .team-section {
   padding: 120px 0;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .team-item-set {
   display: flex;
   gap: 24px;
-  p
 }
 
 .pref-item-set {
   display: flex;
+  
   gap: 24px;
 }
 
@@ -332,7 +333,6 @@ img {
 .section-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
-  
 }
 
 .app-list-div {
@@ -356,4 +356,31 @@ img {
 
 .pref-section {
   padding: 120px 0;
+}
+
+.team-social-links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-social-icon {
+  
+  
+}
+
+.pref-icons {
+  
+  border: 1px solid #8E8F99;
+  background-color: #F4F4FD;
+  width: 264px;
+  border-radius: 4px;
+  gap: 24px;
+
+  
+}
+
+.pref-icon {
+ 
+  
+  
 }
