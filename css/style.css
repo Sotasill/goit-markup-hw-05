@@ -60,6 +60,8 @@ body {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
+  
   
 }
 
@@ -72,9 +74,6 @@ body {
   padding: 24px 0;
 }
 
-.link-secondary {
-  color: inherit;
-}
 
 .current {
   display: block;
@@ -94,6 +93,8 @@ body {
   background-color: #404bbf;
   border-radius: 2px;
 }
+
+
 
 .adress-bar {
   font-style: normal;
