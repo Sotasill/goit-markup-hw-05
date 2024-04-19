@@ -68,8 +68,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: #404bbf;
   padding: 24px 0;
+}
+
+.link-secondary {
+  color: inherit;
 }
 
 .current {
