@@ -46,8 +46,7 @@ body {
 
 .frontpage-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -61,6 +60,7 @@ body {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  
 }
 
 .studio-link {
