@@ -722,7 +722,7 @@ outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input:focus .input-icon {
+.input:focus {
   border-color: #4D5AE5;
 }
 
@@ -734,6 +734,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   top: 50%;
   transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus, .input-icon:focus {
+  fill:#4D5AE5;
 }
 
 .textarea-class {
@@ -773,13 +777,34 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   letter-spacing: 0.04em; 
   color: #8e8f99;
   white-space: nowrap;
+  position: relative;
   
 }
 
 .chechbox-user {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.chechbox-user:checked {
+  background-color: #404bbf;
+  
+}
+
+.chechbox-user:checked .checkbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;;
+  
 }
 
 .checkbox-span {
@@ -812,6 +837,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  margin: 0 auto;
 
 
 }
