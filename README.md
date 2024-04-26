@@ -1,3 +1,3 @@
-# goit-markup-hw-04
+# goit-markup-hw-05
 Homework 4 GoIT Decorational elements
-Trening Decoration elements HTML + css
+Traning Modal window and overlay
