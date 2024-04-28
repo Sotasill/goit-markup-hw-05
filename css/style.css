@@ -485,11 +485,6 @@ img {
   margin-right: 120px;
 }
 
-.footer-social-media {
-  margin-left: 120px;
-  margin-right: 80px;
-}
-
 .social-media-text {
   font-weight: 500;
   font-size: 16px;
@@ -503,7 +498,6 @@ img {
   display: flex;
   gap: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .footer-social-media-set-links {
@@ -535,6 +529,8 @@ img {
 }
 
 .footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
