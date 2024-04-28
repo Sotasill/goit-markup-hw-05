@@ -188,7 +188,7 @@ img {
   padding: 120px 0;
 }
 
-.pref-head {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
