@@ -569,6 +569,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
   border-radius: 4px;
   color: #ffffff;
+  padding-left: 16px; 
   
   
 }
@@ -606,7 +607,7 @@ background-color: #404bbf;}
 
 
 .footer-subscribe-icon {
-  
+  margin-left: 16px; 
 }
   
 
